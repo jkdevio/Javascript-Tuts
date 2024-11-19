@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objects</title>
+</head>
+<body>
+    
+
+    <script>
+        const products = {
+            name: "Jonathan",
+            age: 10
+        }
+        console.log(products)
+        products.name = 'Kate'
+        console.log(products.name);
+        console.log(JSON.stringify(products));
+        const json = JSON.stringify(products);
+        console.log(JSON.parse(json));
+        const {name, age} = products;
+        console.log(name);
+        console.log(age)
+    </script>
+</body>
+</html>

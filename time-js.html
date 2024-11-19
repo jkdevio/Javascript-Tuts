@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time</title>
+</head>
+<body>
+    <button onclick="newDate();" id="new-date">Show Date</button>
+    <button onclick="newAdd = newAdd + 1; alert(`You Clicked ${newAdd}`)">Add</button>
+    <button onclick="newAdd = newAdd - 1; alert(`You Clicked ${newAdd}`)">Subtract</button>
+    <button onclick="newColour();" id="color">Change Color</button>
+    <button onclick="window.print();">Print</button>
+    <hr><br>
+    <button onclick="newData();">Turn On</button>
+    <img src="./pic_bulboff.gif" id="img">
+    <button onclick="newData2();">Turn Off</button>
+    
+    <script>
+        function newDate(){
+            const newDate = document.getElementById('new-date').innerHTML = Date();
+        };
+        function newData(){
+            const bulbOn = document.getElementById('img').src="pic_bulbon.gif";
+        }
+        function newData2(){
+            const bulbOff = document.getElementById('img').src="pic_bulboff.gif";
+        };
+        function newColour(){
+            const newData = document.getElementById('color').style.backgroundColor = 'red';
+            if(newData === document.getElementById('color').style.backgroundColor === 'red'){
+                document.getElementById('color').style.backgroundColor = 'red';
+            }else(newData === document.getElementById('color').style.backgroundColor === 'none');
+        };
+        let x = '100';
+        let y = '10';
+        let z = x - y;
+        console.log("Your answer is "+ z);
+        x += 5;
+         let newAdd = 0;
+    </script>
+</body>
+</html>
