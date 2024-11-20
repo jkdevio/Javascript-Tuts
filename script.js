@@ -14,4 +14,7 @@ const calculateInCents2 = 799;
 
 let totalConversion = (calculateInCents + calculateInCents2) / 100;
 
-console.log(totalConversion)
+let totalConversion2 = Math.round((calculateInCents + calculateInCents2)* 0.1) / 100;
+
+console.log(totalConversion);
+console.log(totalConversion2);
