@@ -33,3 +33,12 @@ let totalCalculations2 = ((totalCost1) + (totalCost2) * 3 + (totalCost3)) * 3;
 
 console.log(totalCalculations);
 console.log(totalCalculations2);
+
+let totalCost4 = 1850;
+let totalCost5 = 750;
+
+let totalCalculations3 = ((totalCost4) + (totalCost5) * 2) /  100;
+
+console.log((totalCalculations3));
+console.log((totalCalculations3) * 0.1);
+console.log((totalCalculations3) * 0.2);
