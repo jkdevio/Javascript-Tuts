@@ -29,4 +29,7 @@ let totalCost3 = 5;
 
 let totalCalculations = ((totalCost1) + (totalCost2)* 3 + (totalCost3));
 
+let totalCalculations2 = ((totalCost1) + (totalCost2) * 3 + (totalCost3)) * 3;
+
 console.log(totalCalculations);
+console.log(totalCalculations2);
