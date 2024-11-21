@@ -42,3 +42,15 @@ let totalCalculations3 = ((totalCost4) + (totalCost5) * 2) /  100;
 console.log((totalCalculations3));
 console.log((totalCalculations3) * 0.1);
 console.log((totalCalculations3) * 0.2);
+
+const amazonCalculations = 1899;
+const amazonCalculations2  = 2095;
+const amazonCalculations3 = 799;
+
+let finalCalculation  = ((amazonCalculations) + (amazonCalculations2) + (amazonCalculations3)) / 100;
+let finalCalculation2  = Math.round((amazonCalculations + amazonCalculations2 + amazonCalculations3) * 0.1) / 100;
+
+
+
+console.log(finalCalculation);
+console.log(finalCalculation2);
