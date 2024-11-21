@@ -61,3 +61,9 @@ console.log(Math.ceil(number));
 console.log(finalCalculation);
 console.log(finalCalculation2);
 console.log(finalCalculation3);
+
+const calculateWeather = 25;
+
+let calculatedWeather = ((calculateWeather * 9/5) + 32);
+
+console.log(calculatedWeather);
