@@ -49,8 +49,10 @@ const amazonCalculations3 = 799;
 
 let finalCalculation  = ((amazonCalculations) + (amazonCalculations2) + (amazonCalculations3)) / 100;
 let finalCalculation2  = Math.round((amazonCalculations + amazonCalculations2 + amazonCalculations3) * 0.1) / 100;
+let finalCalculation3 = ((finalCalculation + finalCalculation2))
 
 
 
 console.log(finalCalculation);
 console.log(finalCalculation2);
+console.log(finalCalculation3);
