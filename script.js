@@ -63,7 +63,13 @@ console.log(finalCalculation2);
 console.log(finalCalculation3);
 
 const calculateWeather = 25;
+const calculateWeather2 = 86;
+const calculateWeather3 = -5;
 
 let calculatedWeather = ((calculateWeather * 9/5) + 32);
+let calculatedWeather3 = ((calculateWeather3 * 9/5) + 32);
+let calculatedWeather2 = ((calculateWeather2 - 32) * 5/9);
 
 console.log(calculatedWeather);
+console.log(calculatedWeather2);
+console.log(calculatedWeather3);
