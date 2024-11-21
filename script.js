@@ -54,6 +54,7 @@ let finalCalculation3 = ((finalCalculation + finalCalculation2))
 const number = 2.8;
 
 console.log(Math.floor(number));
+console.log(Math.ceil(number));
 
 
 
