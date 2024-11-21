@@ -51,6 +51,10 @@ let finalCalculation  = ((amazonCalculations) + (amazonCalculations2) + (amazonC
 let finalCalculation2  = Math.round((amazonCalculations + amazonCalculations2 + amazonCalculations3) * 0.1) / 100;
 let finalCalculation3 = ((finalCalculation + finalCalculation2))
 
+const number = 2.8;
+
+console.log(Math.floor(number));
+
 
 
 console.log(finalCalculation);
