@@ -79,3 +79,8 @@ console.log(typeof(text));
 
 let cash = "$" + ((2095 + 799)) / 100;
 console.log(cash);
+
+let items = "Items (" + (1 + 1) + "): $" + (2095 + 799) / 100;
+
+console.log(items)
+
