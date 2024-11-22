@@ -76,3 +76,6 @@ console.log(calculatedWeather3);
 
 let text = "Hello";
 console.log(typeof(text));
+
+let cash = "$" + ((2095 + 799)) / 100;
+console.log(cash);
