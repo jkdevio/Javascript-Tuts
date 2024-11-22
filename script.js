@@ -73,3 +73,6 @@ let calculatedWeather2 = ((calculateWeather2 - 32) * 5/9);
 console.log(calculatedWeather);
 console.log(calculatedWeather2);
 console.log(calculatedWeather3);
+
+let text = "Hello";
+console.log(typeof(text));
