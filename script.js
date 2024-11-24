@@ -85,5 +85,6 @@ let items = "Items (" + (1 + 1) + "): $" + (2095 + 799) / 100;
 console.log(items);
 alert(items);
 
-console.log("I'/'m Coding")
+console.log("I'/'am Coding");
+
 
