@@ -87,4 +87,13 @@ alert(items);
 
 console.log("I'/'am Coding");
 
+let name = ['Apple, Mango, Egg'];
+
+console.log(name);
+
+function clicker(){
+    num = 1;
+    let num = num + 1;
+}
+
 
